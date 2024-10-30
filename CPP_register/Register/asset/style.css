@@ -1,0 +1,119 @@
+.img_2{
+    width: 620px;
+    height: 220px;
+}
+
+
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    .header{
+        background-color:var(--azure);
+        border: 1px  solid;
+        height :310px;
+        left:0 ;
+        position: absolute;
+        top:0;
+        width: 100%;
+    }
+    .page_reg_from{
+        position: center;
+        align-items: flex-start;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+    }
+    .overlap-group4{
+        height: 764px;
+        margin-left:-1px;
+        margin-top:-1px;
+        position:relative;
+        width: 100%;
+
+    }
+    :root{
+        --azure:rgba(53,96,175,1);
+    }
+    .body{
+        background-color: #0098db;
+        border: 1px solid;
+        height: 1800px;
+        left:1px;
+        top:167px;
+        width: 100%;
+    }
+    .footer{
+        background-color:var(--azure);
+        border: 1px solid;
+        height :330px;
+        width: 100%;
+        overflow: hidden;
+    }
+    .back_drop_event{
+        height: 220px;
+        left:350px;
+        position:absolute;
+        top:50px;
+        width: 250px;
+    }
+    .back_drop_event_text2{
+        width: 620px;height: 220px;
+    }
+    .group1{
+        align-items: flex-start;
+        display: flex;
+        position: absolute;
+        padding: 24.7px 17px;
+        top:650px;
+        height: 60px;
+        left:27px;
+        width:900px;
+    }
+    .group2{
+        align-items: flex-end;
+        display: flex;
+        position: absolute;
+        padding: 8.5px 16.5px;
+        top:750px;
+        left:27px;
+        width:900px;
+    }
+    .group3{
+        align-items: flex-end;
+        display: flex;
+        position: absolute;
+        padding: 8.5px 16.5px;
+        top:830px;
+        left:27px;
+        width:900px;
+    }
+    .group4{
+        align-items: flex-end;
+        display: flex;
+        position: absolute;
+        padding: 8.5px 16.5px;
+        top:920px;
+        left:27px;
+        width:900px;
+    }
+    .img_2{
+        width: 360px;
+        height: 120px;
+    }
+
+    .img_1{
+        width:160px;
+        height: 140px;
+    }
+    .input{
+        height: 200px;
+    }
+    .footer{
+        height: 120px;
+    }
+
+}
